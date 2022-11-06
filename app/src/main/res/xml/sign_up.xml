@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="Signin information" >
+        <EditTextPreference
+            android:key="mail"
+            android:summary="Enter your mail"
+            android:title="Mail" />
+
+        <EditTextPreference
+            android:key="username"
+            android:summary="Please enter your login username"
+            android:title="Username" />
+        <EditTextPreference
+            android:key="password"
+            android:summary="Enter your password"
+            android:title="Password" />
+
+        <Preference
+            android:key="@string/val"
+            android:title='valide'>
+        </Preference>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

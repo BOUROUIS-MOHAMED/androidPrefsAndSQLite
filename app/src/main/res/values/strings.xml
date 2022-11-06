@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">prefAndSQLite</string>
+    <string name="val">valider</string>
+    <string name="signup">valider</string>
+    <string name="loginval">>valider</string>
+</resources>
